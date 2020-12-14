@@ -8,4 +8,11 @@ Compile the code with gcc using `g++ .\MnistNN.cpp -O3`. (The -O3 flag is option
 Comming Soon
 
 ## Neural Network Structure
-Comming Soon
+
+Input: 784 array of pixel intensities
+Hidden Layer: 256 neurons with tanh activation
+Output Layer: 10 neurons with softmax activation
+
+Loss function: Categorical Cross-Entropy (MSE is also an option but it trains much slower).
+
+This is highly customizable so feel free to mess around with the code to get explore results.
