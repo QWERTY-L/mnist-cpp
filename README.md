@@ -9,9 +9,9 @@ Comming Soon
 
 ## Neural Network Structure
 
-Input: 784 array of pixel intensities
-Hidden Layer: 256 neurons with tanh activation
-Output Layer: 10 neurons with softmax activation
+- Input: 784 array of pixel intensities
+- Hidden Layer: 256 neurons with tanh activation
+- Output Layer: 10 neurons with softmax activation
 
 Loss function: Categorical Cross-Entropy (MSE is also an option but it trains much slower).
 
