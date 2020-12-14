@@ -15,4 +15,4 @@ Comming Soon
 
 Loss function: Categorical Cross-Entropy (MSE is also an option but it trains much slower).
 
-This is highly customizable so feel free to mess around with the code to get explore results.
+This is highly customizable so feel free to mess around with the code and explore the results.
