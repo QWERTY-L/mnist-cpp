@@ -11,6 +11,9 @@ Note that for all commands you can type their name without arguments and you wil
 - `exit` - Ends the program (alias: `end`)
 - `print [file name] [training image index]` - Prints image value from the training set and saves it to file (automatically appends .bmp to the end of the file name) (alias: `TrainPrint`)
 - `t_print [file name] [test image index]` - Prints image value from the test set and saves it to file (automatically appends .bmp to the end of the file name) (alias: `TestPrint`)
+- `eval [training image index]` - Predicts the value of an image from the training set (alias: `TrainEval`) - The accuracy of the prediction depends on the accuracy of the NN
+- `t_eval [test image index]` - Predicts the value of an image from the test set (alias: `TestEval`)
+- `train [number of epochs] [batches per epochs] [samples per batch]` - Trains based on the inputed parameters
 
 More commands will be added to this list at a future time, for now check the "input output" section of MnistNN.cpp for more information.
 
